@@ -1,0 +1,66 @@
+Python
+--------
+>> Python is a high level, interpretted, Object-oriented programming language.
+
+Human written code 
+(python)
+|
+|(compilation)
+|
+Byte code (01100001)
+|
+|(Interpretation(Translate))
+|
+Machine code 
+
+compilation ---> it happens in one go
+Interpretation --> line by line
+
+python file ---> .py 
+terminal --> cmd, powershell, git bash(ctrl + j)
+command ---> python fileName.py
+
+
+Print 
+-------
+>> To show a data at the output.
+print(data) 
+
+Syntax 
+--------
+>> It is case-sensitive.(a is not A)
+>> Indentation matters.(whitespace--> define a block)
+
+Comments in Python 
+--------------------
+Single line comments --> # 
+Multiple line comment ---> '''   ''' 
+
+Variables 
+-----------
+>> Named storage to store a piece of data.
+varName = value
+
+Naming Rules 
+-------------
+>> can contain letters, numerics, _-
+>> It camnnot start with numeric
+>> No reserved keywords.
+
+Data types 
+-----------
+In built function to find datatype --> type(obj)
+
+Integer ---> Whole Numbers
+Float ---> Decimal Numbers
+String ---> Sequence of Characters..."", ''
+str1+str2 ---> concatination 
+Boolean ---> True/False
+
+
+Type casting
+------------
+int(obj) ---> converts to integer
+float(obj) ---> converts to float 
+str(obj)
+bool(obj)
