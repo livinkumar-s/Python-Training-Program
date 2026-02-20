@@ -64,3 +64,65 @@ int(obj) ---> converts to integer
 float(obj) ---> converts to float 
 str(obj)
 bool(obj)
+
+Operators 
+-------------
+>> Operators are symbol or keyword that performs operations on operands(values).
+
+3 + 4 = 7
+
+Arithmetic Operators 
+----------------------
+Addition ---> +
+Subtraction ---> - 
+Multiplication ---> *
+Division ---> /
+Floor Division ---> //
+Modulus ---> % (reminder) 7%17 --> 17*0 --> 0--> 7
+Exponentiation ---> ** --> 4**2
+
+BODMAS
+
+Comparison Operators (Boolean)
+--------------------
+== equal to
+!= not equal to
+< lesser than 
+> greater than 
+<= less or equal to
+>= greater or equal to
+
+Logical Operators
+------------------ (Bool ---> Bool)
+AND --> and --> True --> only when both are True
+OR --> or --> True --> any one is True.
+NOT --> not --> inverts the values
+
+Assignment Operators 
+----------------------
+= assign
++= add and assign
+-= a sub and assign
+*=
+/=
+//=
+%=
+**=
+
+Bitwise Operators  
+-------------------
+and ---> & --> performs and operation between bits
+or ---> | -->  performs or operation between bits
+x-or --> ^ --> performs x-or operation between bits
+same --> 0. diff --> 1
+not ---> ~ performs not operations between bits.
+(~n=-(n+1)).(explanation needed.)
+right shift --> >> --> used to move the bits towards right for particular positions 
+left shift --> << --> used to move the bits towards left for particular positions 
+
+Membership Operators 
+-----------------------
+
+
+Identity Operators 
+---------------------
