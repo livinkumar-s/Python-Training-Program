@@ -26,6 +26,11 @@ Print
 >> To show a data at the output.
 print(data) 
 
+Input 
+-------
+>>input(str)
+>> will return always a string....
+
 Syntax 
 --------
 >> It is case-sensitive.(a is not A)
@@ -126,3 +131,47 @@ Membership Operators
 
 Identity Operators 
 ---------------------
+
+
+Control Flow 
+-----------------
+>> Conditional Clause Statement..(make python to take decision)
+>> Loop Statement.. (Repeating code)
+
+Conditional Clause Statements
+-------------------------------
+if 
+-----
+syntax 
+-------
+if condition:
+    block of code
+
+condition ---> an expression that returns a Boolean.
+True ---> code will get executed 
+False ---> code will be ignored
+
+Elif 
+-----
+elif condition:
+    block of code
+
+condition ---> an expression that returns a Boolean.
+True ---> code will get executed 
+False ---> code will be ignored
+
+Else 
+-----
+syntax 
+------
+else:
+    block of code
+>> It depends on the if block's condition
+False ---> code will be executed
+True ---> code will not be executed
+
+Nested if 
+-----------
+if cond1:
+    if cond2:
+        block of code
