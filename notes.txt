@@ -132,6 +132,16 @@ Membership Operators
 Identity Operators 
 ---------------------
 
+Sequence(Ierable Objects)
+--------------------------
+>> If an object is able to return its own members 1 by 1, then that object is called sequence.
+Ex: String, List, Tuple, Set, Dict.....
+
+length of a sequence ---> the number of members in it
+len(obj)---> finds out the length of a sequence.
+a="Hello" ---> 5 char ---> 5 members
+Index numbers ---> starts with 0
+>> Accessing members --> iterObj[ind] -> a[2]
 
 Control Flow 
 -----------------
@@ -175,3 +185,35 @@ Nested if
 if cond1:
     if cond2:
         block of code
+
+Loop 
+-------
+>> Used to execute a block of code for multiple times continiously.
+
+While --> Condition based loop (no of iteration is not known)
+--------------------------------
+syntax:
+---------
+while condition:
+    block of code
+
+It is going to execute the block of code over and over again until the condition becomes False
+
+For   --> Sequence(IterableObj) Based loop (when u know the number of iteration)
+--------------------------------------------
+syntax:
+----------
+for varName in sequence:
+    block of code 
+>> it is going to iterate over a sequence.
+
+Range ---> will create temp iter Object.
+-------------------------------------------
+range(len) --> range(5) --> [0,1,2,3,4]
+range(start,end) --> ngera(3,10)-->[3,4,5,6,7,8,9]
+range(start,end,step) --> range(3,20,2) --> [3,5,7,9,11,13,15,17,19]
+
+Control Statements of Loops 
+----------------------------
+break---> used to stop the loop
+continue---> skip the current iteration.
