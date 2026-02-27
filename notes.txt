@@ -132,7 +132,7 @@ Membership Operators
 Identity Operators 
 ---------------------
 
-Sequence(Ierable Objects)
+Sequence(Iterable Objects)
 --------------------------
 >> If an object is able to return its own members 1 by 1, then that object is called sequence.
 Ex: String, List, Tuple, Set, Dict.....
@@ -140,8 +140,23 @@ Ex: String, List, Tuple, Set, Dict.....
 length of a sequence ---> the number of members in it
 len(obj)---> finds out the length of a sequence.
 a="Hello" ---> 5 char ---> 5 members
+
+
+Indexing and Slicing 
+-----------------------
+Indexing --->> accessing the members of a sequence using index numbers.
 Index numbers ---> starts with 0
 >> Accessing members --> iterObj[ind] -> a[2]
+Negative Indexing ----> starts with -1,-2.........
+
+Slicing --->> Extracting a part of sequence.
+seq[start:] --> seq[3:] --> 3,4,5....last
+seq[:end] --> seq[:7] --> 0,1,2,3,4,5,6
+seq[start:end] --> seq[2:6] --> 2,3,4,5
+seq[start:end:step] ---> seq[2:7:2] --> 2,4,6 
+seq[::-1] --> reverse the sequence
+
+
 
 Control Flow 
 -----------------
@@ -217,3 +232,28 @@ Control Statements of Loops
 ----------------------------
 break---> used to stop the loop
 continue---> skip the current iteration.
+
+DataStructures (all are iterable objects)
+------------------
+>> A data structure is a way to store and organize data so it can be used efficiently.
+
+List 
+-------
+syntax 
+--------
+>> [ele1,ele2,ele3........]
+>> Ordered 
+>> Mutable 
+>> Allow Duplicates 
+
+in built method 
+----------------
+.append(ele) --> adding new element at the end.
+.extend(iterObj) --> adding multi elements at the end
+.insert(pos, val) 
+.remove(ele) 
+.pop(ind) ---> removing element using ind
+.pop()
+.clear()
+.sort() --> arranging list in acs/desc order
+.reverse()
