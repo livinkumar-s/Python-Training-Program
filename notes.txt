@@ -257,3 +257,61 @@ in built method
 .clear()
 .sort() --> arranging list in acs/desc order
 .reverse()
+.index(ele) --> finds the index value 
+.count(ele) --> no of occur
+
+Tuple
+-------
+>> Tuple is an 
+Ordered
+Immutable 
+It allows duplicates 
+(ele1,ele2....)
+
+>> Faster than list.
+
+In built methods
+------------------
+.index(ele) --> finds the index value 
+.count(ele) --> no of occur
+
+Packing/Unpacking
+--------------------
+Packing -----> t=1,2,3,4,5,6
+Unpacking ---> var1,var2=t 
+
+Set 
+----
+A set is an 
+>> Unordered
+>> not indexed 
+>> will not allow duplicate 
+>> Mutable 
+{ele1,ele2,ele3......}
+
+in built methods 
+-----------------
+add 
+remove 
+clear
+.union(set)
+.intersection(set)
+.defference(set)
+
+Dictionary 
+---------------
+>> A dictionary is a key-value pair collection.
+{
+    key1:value1,
+    key2:value2,
+    .
+    .
+}
+keys --> unique, values can be duplicated.
+Mutale
+
+in built methods 
+------------------
+.keys() --> returns all the keys in an iterObject.
+.value()
+.pop(key)
