@@ -315,3 +315,45 @@ in built methods
 .keys() --> returns all the keys in an iterObject.
 .value()
 .pop(key)
+
+
+Functions 
+-------------
+>> IT IS A REUSABLE BLOCK OF CODE. THAT PERFORMS SPECIFIC TASK.
+
+In built Functions --> print, input..
+User Defined Function 
+Syntax 
+---------
+def fnName():
+    block of code 
+
+fnName() --> calling, invoking.
+
+Parameters and Arguments 
+----------------------------
+P --> Parameters are the variables created in a function without value.
+A --> Values assigned for those parameters while calling that function.
+
+Positional Arguments 
+----------------------
+>> Order matters.
+
+Keyword Arguments
+------------------
+>> Order does not matter. assigning values for parameters with the keyword.
+
+Default Arguments 
+-------------------
+>> Assigning default value for parameter.
+
+Variable Length Arguement 
+---------------------------
+>> when you dont know the number of arguments to be passed.
+
+def fnName(*para)
+
+Return Keyword 
+------------------
+>> It stops the function.
+>> It will return a data to the caller
