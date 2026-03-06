@@ -58,10 +58,39 @@ In built function to find datatype --> type(obj)
 
 Integer ---> Whole Numbers
 Float ---> Decimal Numbers
-String ---> Sequence of Characters..."", ''
+
+String ---> Sequence of Characters..."", '', ''' '''
+>> Iterable 
+>> Immutable 
+>> Ordered
+
+Operations:
+-------------
+Concatination ---> str1+str2--> str1str2 
+Repetition ---> str1*3 --> str1str1str1
+
 str1+str2 ---> concatination 
 Boolean ---> True/False
 
+In built 
+----------
+.upper()
+.lower()
+.title()
+.capitalize()
+
+.strip()
+.lstrip()
+.rstrip()
+
+.replace(old,new)
+
+.split(breakChar) --> it splits str into multiple subString and will store those in a list
+.join(iterObj)
+
+Formatted String 
+------------------
+f"  {var1} {var2} "
 
 Type casting
 ------------
@@ -125,12 +154,16 @@ not ---> ~ performs not operations between bits.
 right shift --> >> --> used to move the bits towards right for particular positions 
 left shift --> << --> used to move the bits towards left for particular positions 
 
-Membership Operators 
+Membership Operators(Boolean)
 -----------------------
+in 
+not in 
 
 
 Identity Operators 
 ---------------------
+is 
+is not 
 
 Sequence(Iterable Objects)
 --------------------------
@@ -357,3 +390,4 @@ Return Keyword
 ------------------
 >> It stops the function.
 >> It will return a data to the caller
+
