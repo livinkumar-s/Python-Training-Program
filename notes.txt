@@ -5,11 +5,11 @@ Python
 Human written code 
 (python)
 |
-|(compilation)
+|(compilation)(syntax errors)
 |
 Byte code (01100001)
 |
-|(Interpretation(Translate))
+|(Interpretation(Translate)) (Runtime errors)
 |
 Machine code 
 
@@ -98,6 +98,10 @@ int(obj) ---> converts to integer
 float(obj) ---> converts to float 
 str(obj)
 bool(obj)
+list()
+tuple()
+dict()
+set()
 
 Operators 
 -------------
@@ -387,7 +391,52 @@ Variable Length Arguement
 def fnName(*para)
 
 Return Keyword 
-------------------
+------------------ 
 >> It stops the function.
 >> It will return a data to the caller
 
+Errors 
+----------
+>> Errors are the problems that stops code from running correctly.
+
+Syntax Errors
+----------------
+It occurs when the code does not follow the correct grammer rules.
+Ex: SyntaxError, IndentationError
+
+Runtime Errors (Exceptions)
+--------------
+>> when the syntax is correct, but something goes wrong during execution.
+Ex: TypeError,ZeroDivisionError,ValueError......
+
+Exception Handling 
+---------------------
+Syntax:
+--------
+try:
+    block of code 
+except errName:
+    handling block
+finally:
+    block of code
+
+File Handling 
+-----------------
+>> File handling allows to store, read, update data permanantly in a file.
+
+To open a file in python ---> open(addr,mode)
+To close the file ---> fileObj.close()
+
+To read all the content --> .read()
+To read line by line --> .readline(), ,readlines()
+
+To write Content 
+-----------------
+Over writing ---> fileObj.write(content)
+Appending content ---> fileObj.write(content)
+
+Modes 
+---------
+Read ---> r 
+Write --> w 
+Append ---> a

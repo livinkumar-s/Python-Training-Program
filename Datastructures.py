@@ -39,7 +39,8 @@ lis2=[213,234,234,234,3,5,234]
 
 # Tuple 
 
-tup1=(1,2,3,4,3,2,1,"Hello","Hi")
+# tup1=(1,2,3,4,3,2,1,"Hello","Hi")
+# print(list(tup1))
 # tup1[3]=44
 # print(tup1.index("Hello world"))
 # print(tup1[3])
