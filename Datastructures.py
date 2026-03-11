@@ -24,7 +24,19 @@
 
 # lis2.append(2)
 # lis2.extend(2)
-lis2=[213,234,234,234,3,5,234]
+lis2 = [213,234,234,234,3,5,234]
+
+final=[]
+
+for ele in lis2:
+    if ele not in final:
+        final.append(ele)
+
+print(final)
+
+
+# print(lis2)
+ 
 # names=["Rohit","Virat","Dhoni","Rohit","Rohit"]
 
 # lis2.insert(4,"Hello")

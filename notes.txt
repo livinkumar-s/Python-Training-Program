@@ -440,3 +440,35 @@ Modes
 Read ---> r 
 Write --> w 
 Append ---> a
+
+OOP 
+-----
+>> Object Oriented Programming.
+
+>> It is a programming pattern that organizes code using objects and classes.
+
+Object ---> informations ---> Functionalities
+
+Bottle ---> Width, height, volume, color ---> open, close.
+
+Blueprint --> Bottle1, Bottle2.......
+
+Class ---> Obj1, Obj2, Obj2....
+
+>> Each object contains Data(attributes/Properties). Behaviours(Methods/Functions)
+
+Syntax to create class:
+------------------------
+class Classname:
+    attributes 
+    methods
+
+Constructor Function
+-----------------------
+def __init__():
+    define attributes
+
+Self Keyword 
+--------------
+>> self refers to current object.
+It allows objects to access their own data.
