@@ -99,3 +99,7 @@
 #         print("Very Small")
 #     else:
 #         print("Small")
+
+a=(5,)
+
+print(a)

@@ -473,3 +473,9 @@ Self Keyword
 >> self refers to current object.
 It allows objects to access their own data.
 
+Python to MySQL 
+------------------
+>> mysql-connector-python 
+pip --> package manager
+
+--> pip install "package name"==version
